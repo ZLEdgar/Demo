@@ -16,6 +16,7 @@
 		99B18291266B02350007DCF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B18290266B02350007DCF3 /* main.m */; };
 		99B1829B266B02350007DCF3 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1829A266B02350007DCF3 /* DemoTests.m */; };
 		99B182A6266B02350007DCF3 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B182A5266B02350007DCF3 /* DemoUITests.m */; };
+		99B182B9266B05A40007DCF3 /* TextDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B182B8266B05A40007DCF3 /* TextDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		99B182A1266B02350007DCF3 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B182A5266B02350007DCF3 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		99B182A7266B02350007DCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B182B7266B05A40007DCF3 /* TextDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDemo.h; sourceTree = "<group>"; };
+		99B182B8266B05A40007DCF3 /* TextDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		99B1827D266B02340007DCF3 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				99B182B6266B05710007DCF3 /* Classes */,
 				99B1827E266B02340007DCF3 /* AppDelegate.h */,
 				99B1827F266B02340007DCF3 /* AppDelegate.m */,
 				99B18281266B02340007DCF3 /* SceneDelegate.h */,
@@ -135,6 +139,15 @@
 				99B182A7266B02350007DCF3 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		99B182B6266B05710007DCF3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				99B182B7266B05A40007DCF3 /* TextDemo.h */,
+				99B182B8266B05A40007DCF3 /* TextDemo.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99B18286266B02340007DCF3 /* ViewController.m in Sources */,
+				99B182B9266B05A40007DCF3 /* TextDemo.m in Sources */,
 				99B18280266B02340007DCF3 /* AppDelegate.m in Sources */,
 				99B18291266B02350007DCF3 /* main.m in Sources */,
 				99B18283266B02340007DCF3 /* SceneDelegate.m in Sources */,
