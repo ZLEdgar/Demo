@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)log;
 
+
 @end
 
 NS_ASSUME_NONNULL_END
